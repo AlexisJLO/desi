@@ -33,9 +33,9 @@
   color: white;
   font-family: 'Dancing Script', cursive;
   border: none;
-  padding: 5px 20px;
+  padding: 10px 20px;
   font-size: 1.25rem;
-  border-radius: 5px;
+  border-radius: 100px;
   cursor: pointer;
 }
 .pop-animation {

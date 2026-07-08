@@ -19,7 +19,7 @@ function App() {
       className={`button ${clicked ? "" : "pop-animation"}`}
       onClick={() => setClicked(true)}
     >
-      I Love You 💖
+      I Love You
     </button>
   
     </div>
