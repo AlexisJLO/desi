@@ -7,8 +7,8 @@ import './App.css'
 function App() {
   return (
     <div>
-      <h1>Goodmorning Beautiful</h1>
-      <p>Happy National Girlfriend Day!</p>
+      <h1 className="title">Happy National Girlfriend Day!</h1>
+      <p>To the most beautiful girlfriend in the world!</p>
     </div>
   );
 }
