@@ -19,19 +19,4 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  text-align: center;
-}
-
-.title {
-  font-family: 'Dancing Script', cursive;
-  font-size: 5rem;
-  color: #ffffff;
-  margin: 0;
-}
-
-.subtext {
-  font-family: 'Dancing Script', cursive;
-  font-size: 2rem;
-  color: #ffffff;
-  margin: 0;
 }
