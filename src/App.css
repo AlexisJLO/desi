@@ -28,6 +28,36 @@
   margin: 0;
 }
 
+.button {
+  background-color: #ff0026;
+  color: white;
+  font-family: 'Dancing Script', cursive;
+  border: none;
+  padding: 5px 20px;
+  font-size: 1.25rem;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.pop-animation {
+  animation: pop 3s infinite;
+}
+
+@keyframes pop {
+  0%,
+  85%,
+  100% {
+    transform: scale(1);
+  }
+
+  90% {
+    transform: scale(1.15);
+  }
+
+  95% {
+    transform: scale(0.95);
+  }
+}
+
 @keyframes popIn {
   0% {
     opacity: 0;
