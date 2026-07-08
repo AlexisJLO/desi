@@ -7,8 +7,8 @@ import './App.css'
 function App() {
   return (
     <div>
-      <h1>Hello React 🚀</h1>
-      <p>My website is running!</p>
+      <h1>Goodmorning Beautiful</h1>
+      <p>Happy National Girlfriend Day!</p>
     </div>
   );
 }
