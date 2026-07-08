@@ -8,7 +8,7 @@ function App() {
   return (
     <div>
       <h1 className="title">Happy National Girlfriend Day!</h1>
-      <p>To the most beautiful girlfriend in the world!</p>
+      <p className="subtext">To the most beautiful girlfriend in the world!</p>
     </div>
   );
 }
