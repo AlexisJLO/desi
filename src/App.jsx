@@ -8,26 +8,41 @@ import './index.css'
 
 function App() {
    const [clicked, setClicked] = useState(false);
+   const decorations = [
+  { image: heart, top: "10%", left: "15%" },
+  { image: heart, top: "70%", left: "10%" },
+  { image: heart, top: "25%", left: "80%" },
+  { image: heart, top: "80%", left: "75%" },
+  { image: heart, top: "52%", left: "61.5%", },
+
+  { image: bow1, top: "15%", left: "75%" },
+  { image: bow1, top: "60%", left: "10%" },
+  { image: bow1, top: "85%", left: "30%" },
+  { image: bow1, top: "40%", left: "20%" },
+
+  { image: bow2, top: "20%", left: "30%" },
+  { image: bow2, top: "55%", left: "85%" },
+  { image: bow2, top: "80%", left: "50%" },
+  { image: bow2, top: "10%", left: "60%" },
+];
   return (
+    
     <div className="hero">
   
-      <img 
-        src={heart}
-        alt="heart"
-        className="decoration heart"
-      />
-
-      <img 
-        src={bow1}
-        alt="bow"
-        className="decoration bow1"
-      />
-
-      <img 
-        src={bow2}
-        alt="bow2"
-        className="decoration bow2"
-      />
+  <div className="decorations">
+        {decorations.map((item, index) => (
+          <img
+            key={index}
+            src={item.image}
+            alt="decoration"
+            className="decoration heart"
+            style={{
+              top: item.top,
+              left: item.left,
+            }}
+          />
+        ))}
+      </div>
       <img src={helloKitty}
         alt="Hello Kitty"
         className="hello-kitty"/>
