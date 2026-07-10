@@ -1,5 +1,7 @@
 import { useState } from "react";
-import "../pages/quiz.css";
+import "../pages/Quiz.css";
+import correctImage from "../assets/Quiz/Good Job.gif";
+import wrongImage from "../assets/Quiz/wrong.jpg";
 
 function Quiz() {
 
@@ -77,7 +79,7 @@ function Quiz() {
           setCurrentQuestion(currentQuestion + 1);
         }
 
-      }, 2000);
+      }, 5000);
 
 
     } else {
@@ -168,13 +170,15 @@ function Quiz() {
             {
               result.correct
               ?
-              <h2>
-                ✅ You got it right!
-              </h2>
+              
+                <img
+                src={correctImage}
+                alt="Correct" /> 
               :
-              <h2>
-                ❌ Try again!
-              </h2>
+                <img
+                src={wrongImage}
+                alt="Incorrect" /> 
+              
             }
 
 

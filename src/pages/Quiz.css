@@ -11,6 +11,11 @@
   text-align:center;
 
   color:white;
+  img {
+    width: 200px;
+    height: auto;
+    margin-top: 20px;
+  }
 
 }
 
@@ -67,8 +72,6 @@
   animation:pop 0.5s ease;
 
 }
-
-
 
 @keyframes pop {
 
