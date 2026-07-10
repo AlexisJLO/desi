@@ -7,14 +7,26 @@ function Quiz() {
 
   const questions = [
     {
-      question: "Where did we first meet?",
+        question: "Who initiated first?",
+        answers: [
+            "You",
+            "Me",
+            "Both",
+            "Neither"
+        ],
+        correct: "You",
+        message: "You were the one who took the first step ❤️"
+    },
+
+    {
+      question: "What was our first conversation?",
       answers: [
-        "Coffee Shop",
-        "School",
-        "Online",
-        "Work"
+        "Cats and Cars",
+        "Games",
+        "Anime",
+        "Music"
       ],
-      correct: "Work",
+      correct: "Cats and Cars",
       message: "Of course you remember where our story started ❤️"
     },
 
@@ -22,7 +34,7 @@ function Quiz() {
       question: "What is my favorite thing about you?",
       answers: [
         "Your smile",
-        "Your kindness",
+        "Your eyes",
         "Your laugh",
         "Everything"
       ],
@@ -42,7 +54,75 @@ function Quiz() {
       message: "Because our love keeps growing every day ❤️"
     },
 
-    // Add 7 more questions here
+    {
+        question: "Where did we share our first kiss?",
+        answers: [
+            "In the parking lot",
+            "In the room of the Airbnb",
+            "In the Hot Tub",
+            "In the car"
+        ],
+        correct: "In the Hot Tub",
+        message: "That was such a special moment ❤️"
+    },
+
+    {
+      question: "Where was our first date?",
+      answers: [
+        "Movies",
+        "Mall",
+        "Escape Room",
+        "Dinner"
+    ],
+    correct: "Mall",
+    message: "That was such a fun day ❤️"
+    },
+
+    {
+        question: "What is our anime?",
+        answers: [
+            "My Dress Up Darling",
+            "Sailor Moon",
+            "A Sign of Affection",
+            "Your Name"
+        ],
+        correct: "A Sign of Affection",
+        message: "That's our favorite anime ❤️"
+    },
+
+    {
+        question: "What is our song?",
+        answers: [
+            "Love Story",
+            "Risk It All",
+            "Valentines",
+            "I Cant Help Falling in Love"
+        ],
+        correct: "Risk It All",
+        message: "That's our favorite song ❤️"
+    },
+    {
+        question: "What is our favorite game?",
+        answers: [
+            "Among Us",
+            "Valorant",
+            "League of Legends",
+            "Minecraft"
+        ],
+        correct: "Among Us",
+        message: "That's our favorite game ❤️"
+    },
+    {
+        question: "What is our favorite movie?",
+        answers: [
+            "Your Name",
+            "Spirited Away",
+            "Your Name",
+            "The Notebook"
+        ],
+        correct: "Your Name",
+        message: "That's our favorite movie ❤️"
+    },
   ];
 
 
