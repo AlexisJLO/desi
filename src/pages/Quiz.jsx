@@ -87,7 +87,7 @@ function Quiz() {
             "Your Name"
         ],
         correct: "A Sign of Affection",
-        message: "That's our favorite anime ❤️"
+        message: "That's our anime ❤️"
     },
 
     {
@@ -99,7 +99,7 @@ function Quiz() {
             "I Cant Help Falling in Love"
         ],
         correct: "Risk It All",
-        message: "That's our favorite song ❤️"
+        message: "That's the song when I think of you ❤️"
     },
     {
         question: "What is our favorite game?",
@@ -196,6 +196,15 @@ function Quiz() {
         <h1>
           {score} / {questions.length}
         </h1>
+        <button
+            className={`button ${clicked ? "" : "pop-animation"}`}
+            onClick={() => {
+              setClicked(true);
+              window.location.href = "/memories";
+            }}
+          >
+            Memories Time!
+          </button>
 
       </div>
     );

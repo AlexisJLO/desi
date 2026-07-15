@@ -8,6 +8,7 @@ import cinnamoroll from "./assets/cinnamoroll.webp";
 import myMelody from "./assets/MyMelody.png";
 import './App.css'
 import './index.css'
+import MusicPlayer from "./pages/Music.jsx";
 
 function App() {
   const [clicked, setClicked] = useState(false);
@@ -51,9 +52,9 @@ function App() {
 
   return (
     <div className="page">
-
+ 
       <section className="hero">
-
+      <MusicPlayer />
         <div className="decorations">
           {decorations.map((item, index) => (
             <img
@@ -107,9 +108,9 @@ function App() {
         >
           I Love You!
         </button>
-
+ <MusicPlayer />
       </section>
-
+         
       {showLetter && (
         <section
           id="love-letter"
@@ -129,6 +130,7 @@ function App() {
           >
             Quiz Time!
           </button>
+        
         </section>
       )}
 
