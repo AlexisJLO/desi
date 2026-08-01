@@ -102,28 +102,6 @@ const [clicked, setClicked] = useState(false);
         correct: "Risk It All",
         message: "That's the song when I think of you ❤️"
     },
-    {
-        question: "What is our favorite game?",
-        answers: [
-            "Among Us",
-            "Valorant",
-            "League of Legends",
-            "Minecraft"
-        ],
-        correct: "Among Us",
-        message: "That's our favorite game ❤️"
-    },
-    {
-        question: "What is our favorite movie?",
-        answers: [
-            "Your Name",
-            "Spirited Away",
-            "Your Name",
-            "The Notebook"
-        ],
-        correct: "Your Name",
-        message: "That's our favorite movie ❤️"
-    },
   ];
 
 
