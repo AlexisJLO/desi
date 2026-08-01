@@ -19,7 +19,7 @@ function App() {
     { image: heart, top: "70%", left: "10%" },
     { image: heart, top: "25%", left: "80%" },
     { image: heart, top: "80%", left: "75%" },
-    { image: heart, top: "53%", left: "59.2%" },
+    { image: heart, top: "53%", left: "61.5%" },
 
     { image: bow1, top: "15%", left: "75%" },
     { image: bow1, top: "60%", left: "10%" },
@@ -118,9 +118,7 @@ function App() {
         >
           <h2>My Love</h2>
 
-          <p>
-            1 Corinthians 13:4-7 – Love is patient, kind, and enduring; it does not envy or boast, and it always protects, trusts, hopes, and perseveres, providing 
-            a model for all relationships
+          <p className="love-letter">
             God I love your eyes, your smile, your laugh, and your heart. You are the most beautiful person I have ever met, and I am so grateful to have you in my life.
             Desiray, I will do any and everything in my power to make you happy, and I will always be here for you. I love you more than words can express, and I am so lucky to have you as my girlfriend,
             and one day my beautiful wife. I will always cherish and love you, and I will never take you for granted. You are my everything, and I am so grateful to have you in my life. I love you more 
