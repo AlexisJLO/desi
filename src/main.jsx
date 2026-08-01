@@ -4,6 +4,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 import App from "./App";
 import Quiz from "./pages/Quiz";
+import Memories from "./pages/Memories";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
@@ -11,6 +12,7 @@ ReactDOM.createRoot(document.getElementById("root")).render(
       <Routes>
         <Route path="/" element={<App />} />
         <Route path="/quiz" element={<Quiz />} />
+        <Route path="/memories" element={<Memories />} />
       </Routes>
     </BrowserRouter>
   </React.StrictMode>

@@ -2,9 +2,10 @@ import { useState } from "react";
 import "../pages/Quiz.css";
 import correctImage from "../assets/Quiz/Good Job.gif";
 import wrongImage from "../assets/Quiz/wrong.jpg";
+import MusicPlayer from "../pages/Music.jsx";
 
 function Quiz() {
-
+const [clicked, setClicked] = useState(false);
   const questions = [
     {
         question: "Who initiated first?",
@@ -157,7 +158,10 @@ function Quiz() {
 
         if(currentQuestion + 1 < questions.length){
           setCurrentQuestion(currentQuestion + 1);
-        }
+        } 
+        else {
+        setCurrentQuestion(questions.length);
+}
 
       }, 5000);
 
@@ -186,7 +190,7 @@ function Quiz() {
       <div className="quiz-container">
 
         <h1>
-          Quiz Complete 💖
+          Quiz Complete
         </h1>
 
         <h2>
@@ -280,7 +284,7 @@ function Quiz() {
         )
       }
 
-
+<MusicPlayer/>
     </div>
 
   );
