@@ -11,8 +11,8 @@ ReactDOM.createRoot(document.getElementById("root")).render(
     <HashRouter>
       <Routes>
         <Route path="/" element={<App />} />
-        <Route path="/desi/quiz" element={<Quiz />} />
-        <Route path="/desi/memories" element={<Memories />} />
+        <Route path="/quiz" element={<Quiz />} />
+        <Route path="/memories" element={<Memories />} />
       </Routes>
     </HashRouter>
   </React.StrictMode>
