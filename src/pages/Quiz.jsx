@@ -199,7 +199,7 @@ const [clicked, setClicked] = useState(false);
     <div className="quiz-container">
 
       <h1>
-        Question {currentQuestion + 1}/8
+        Question {currentQuestion + 1}/10
       </h1>
 
 
