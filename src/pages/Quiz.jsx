@@ -182,7 +182,7 @@ const [clicked, setClicked] = useState(false);
             className={`button ${clicked ? "" : "pop-animation"}`}
             onClick={() => {
               setClicked(true);
-              window.location.href = "/memories";
+              window.location.href = "/desi/memories";
             }}
           >
             Memories Time!
