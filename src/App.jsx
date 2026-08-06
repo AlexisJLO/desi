@@ -131,7 +131,7 @@ function App() {
             className={`button ${clicked ? "" : "pop-animation"}`}
             onClick={() => {
               setClicked(true);
-              window.location.href = "/desi/quiz";
+              window.location.href = "/desi/#/quiz";
             }}
           >
             Quiz Time!
