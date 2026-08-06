@@ -7,6 +7,11 @@ export default defineConfig({
   base: "/desi/",
   plugins: [
     react(),
+    
     babel({ presets: [reactCompilerPreset()] })
   ],
+  server: {
+    port: 3000,
+    open: true,
+  },
 })
